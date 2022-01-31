@@ -48,4 +48,54 @@ main{
 .list{
     margin-top: 30px;
     margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.headtable{
+    border: 1px solid lightskyblue;
+    background-color: lightskyblue;
+}
+
+.lightbluetable {
+    border: 15px solid lightblue;
+    background-color: lightblue;
+    height: 50px;
+}
+
+.whitetable{
+    height:50px;
+}
+
+
+footer{
+   margin:20px;
+}
+
+.monitorimg {
+  margin-top: 10px;
+  width: 140px;
+  height: 100px;  
+  padding: 40px;
+  background-image: url(/asset/css/img/monitor.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.img{
+    color: white;
+}
+
+.graphimg{
+     margin-top: 10px;
+     width: 140px;
+     height: 100px;  
+     padding: 40px;
+     background-image: url(/asset/css/img/graph.jpg);
+     background-size: cover;
+     background-repeat: repeat;
+}
+
+.yellow{
+    background:#FFFF00;
 }
