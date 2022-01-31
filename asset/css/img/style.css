@@ -1,4 +1,6 @@
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -10,9 +12,31 @@
     background-color: lightskyblue;
     background-size: contain;
     background-repeat: repeat;
+    margin-bottom: 40px;
 }
 
 .logo{
     width: 170px;
     margin-top: 40px;
+}
+
+.colorblue{
+    color: lightskyblue;
+}
+
+.lightgrey{
+    color: grey;
+}
+
+main{
+    margin-left: 10px;
+}
+
+.imgs{
+    margin-top: 20px;
+}
+
+.reducefontsize{
+    font-size: 0.7rem;
+    margin-top: 5px;
 }
