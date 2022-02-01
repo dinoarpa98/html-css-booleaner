@@ -7,17 +7,16 @@
     box-sizing: border-box;
 }
 .backimg{
-    height: 80px;
     background-image: url(./pattern.png);
-    background-color: lightskyblue;
-    background-size: contain;
-    background-repeat: repeat;
+    background-color: #4EA0FF;
+    background-size: 28%;
     margin-bottom: 40px;
+    padding: 30px 0;
 }
 
 .logo{
-    width: 170px;
-    margin-top: 40px;
+    height: 50px;
+    margin: 0rem;
 }
 
 .colorblue{
@@ -51,21 +50,22 @@ main{
     margin-bottom: 20px;
 }
 
+table{
+    text-align: left;
+    border-spacing: 0;
+    width: 80%;
+    padding: 30px 0;
+}
 
-.headtable{
-    border: 1px solid lightskyblue;
+.lightbluetable{
+    background-color: lightblue;
+}
+
+.headtable {
     background-color: lightskyblue;
 }
 
-.lightbluetable {
-    border: 15px solid lightblue;
-    background-color: lightblue;
-    height: 50px;
-}
 
-.whitetable{
-    height:50px;
-}
 
 
 footer{
@@ -73,27 +73,30 @@ footer{
 }
 
 .monitorimg {
-  margin-top: 10px;
-  width: 140px;
-  height: 100px;  
-  padding: 40px;
-  background-image: url(/asset/css/img/monitor.jpg);
-  background-size: cover;
-  background-repeat: repeat;
+     margin-top: 10px;
+     width: 200px;
+     height: 200px;  
+     padding: 40px;
+     background-image: url(/asset/css/img/monitor.jpg);
+     background-size: cover;
+     background-repeat: repeat;
+     background-position: center;
 }
 
-.img{
+
+.fwhite{
     color: white;
 }
 
 .graphimg{
      margin-top: 10px;
-     width: 140px;
-     height: 100px;  
+     width: 200px;
+     height: 200px;  
      padding: 40px;
      background-image: url(/asset/css/img/graph.jpg);
      background-size: cover;
      background-repeat: repeat;
+     background-position: center;
 }
 
 .yellow{
